@@ -1,0 +1,79 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "East Sea Dokdo", cursive;
+    background-image: url(http://cdn.news.unn.net/news/photo/202009/235168_120734_3650.jpg);
+    margin: 0;
+}
+
+
+
+.container{
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+    width: 100%;
+    
+}
+
+.pre-title {
+    font-size: 4vw;
+    font-weight: bold;
+    color: blue;
+}
+
+
+.title {
+    font-size: 6vw;
+    font-weight: bold;
+    }
+
+.sub-title {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+.red-text {
+    color: red;
+    }
+
+.main-img {
+        width: 20vw;
+        height: 20vh;
+    }
+
+
+.form-control {
+    height: 80px;
+    font-size: 18px;
+    margin-right: 350px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+}
+
+.button-style {
+    height: 80px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    font-size: 175%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:100rem) {
+    .main-img{
+        width:80%;
+        height:80%;
+    }
+    
+    
+}
+
