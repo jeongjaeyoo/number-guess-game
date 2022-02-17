@@ -13,7 +13,7 @@ console.log(computerNum);
 let userNumber = document.getElementById("input-area");
 let chances = 5;
 let leftChances = document.getElementById("left-chances");
-let resultArea = document.querySelector(".result-text")
+let resultArea = document.querySelector(".result-text");
 let resultAreaImg = document.querySelector(".main-img");
 let playButton = document.getElementById("play-button");
 let playButtonClick = playButton.addEventListener("click", play);
