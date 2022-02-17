@@ -72,4 +72,5 @@ function reset() {
   leftChances.textContent = "남은 기회: 5번";
   userNumber.value = "";
   playButton.disabled = false;
+  resultAreaImg.src = "https://media1.giphy.com/media/9DinPR8bzFsmf74j9W/giphy.gif"
 }
